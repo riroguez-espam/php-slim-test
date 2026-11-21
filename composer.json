@@ -1,0 +1,21 @@
+{
+    "name": "learncode/enrrolment",
+    "description": "Test project Slim",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Geovanny Rios",
+            "email": "info@learncode.icu"
+        }
+    ],
+    "scripts": {
+        "server": "php -S localhost:8888 -t public"
+    }, 
+    "autoload": {
+        "App\\": "App/",
+        "Core\\": "Core/"
+    },
+    "config": {
+        "process-timeout": 0
+    }
+}
